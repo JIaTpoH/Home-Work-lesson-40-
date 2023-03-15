@@ -18,12 +18,20 @@ public class Human {
     this.name = name;
   }
 
-  @Override
-  public String toString() {
-    return "Человек по имени " + name;
+  public String getName() {
+    return name;
   }
 
-  public void greeting() {
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  @Override
+  public String toString() {
+    return "Человек по имени" + getName();
+  }
+
+    public  void sayHallo () {
     System.out.println("Я родился!");
   }
 }

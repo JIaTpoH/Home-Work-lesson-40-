@@ -1,17 +1,17 @@
 package Human;
 
-class Woman extends Human {
+public class Woman extends Human {
   public Woman(String name) {
     super(name);
   }
 
   @Override
   public String toString() {
-    return "Женщина по имени " + super.toString().substring(16);
+    return "Женщина по имени " + getName();
   }
 
   @Override
-  public void greeting() {
+  public void sayHallo() {
     System.out.println("Я родилась!");
   }
 }

@@ -5,10 +5,10 @@ public class Main {
 
     Man man = new Man("Dima");
     System.out.println(man);
-    man.greeting();
+    man.sayHallo();
 
     Woman woman = new Woman("Alina");
     System.out.println(woman);
-    woman.greeting();
+    woman.sayHallo();
   }
 }
